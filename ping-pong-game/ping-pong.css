@@ -1,0 +1,67 @@
+body{
+    padding:0px;
+    margin:0;
+    box-sizing:border-box;
+    overflow: hidden;
+}
+.bat{
+    height:7px;
+    width:120px;
+    position: absolute;
+    border-radius:20px;
+    background-color:rgb(211, 4, 4);
+}
+p{
+    color:white;
+}
+main{
+   height:100vh;
+    width:100vw;
+    position :relative;
+    background-color: #df8f00;
+}
+ .circle{
+    height:10px;
+    width:10px;
+    position:absolute;
+    background:white;
+    border-radius:50%;
+} 
+.start{
+    background-color:rgb(0,0,0,0);
+    padding:10px 15px;
+    border-color: white;
+    color:white;
+    position:relative;
+    top:50vh;
+    /* left:46vw; */
+}
+
+.gameOverClass{
+    position:relative;
+    top:150px;
+    left:47vw;
+    color:white;
+    animation:text 0.7s ease-in-out 2 alternate;
+    font-size: 2rem;
+}
+@keyframes text{
+    0%{
+        font-size: auto;
+    }
+    100%{
+        font-size:3rem;
+    }
+}
+ 
+.tryAgain{
+    background-color:rgb(0,0,0,0);
+    padding:10px 15px;
+    border-color: white;
+    color:white;
+    position:relative;
+    top:50vh;
+    left:48vw;
+    display:none;
+    animation:none;
+}
