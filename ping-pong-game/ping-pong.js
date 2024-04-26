@@ -206,7 +206,7 @@ function marks(){
 }
 function updateLevel(){
     if(level>=1){
-        alert("Woww.. You are complete"+level+"Level");
+        alert("Woww.. You are complete"+" "+level+"st"+"Level");
     }
     levels.style.color="white";
     levels.innerText=level;
